@@ -7,3 +7,15 @@ class Product:
         self.__type = type
         self.__price = price
         self.__expiredDate = expiredDate
+
+    def getName(self):
+        return self.__name
+
+    def getType(self):
+        return self.__type
+
+    def getPrice(self):
+        return self.__price
+
+    def getExpiredDate(self):
+        return self.__expiredDate
